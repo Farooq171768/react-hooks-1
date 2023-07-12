@@ -6,12 +6,12 @@ import { useContext } from 'react'
 import { UserContext,CompanyContext } from '../App'
 
 export const ComponentE = () => {
-    const user=useContext(UserContext)
-    const company= useContext(CompanyContext)
+    // const user=useContext(UserContext)
+    // const company= useContext(CompanyContext)
     return (
         <div>
-            {/* <ComponentF/> */}
-            {user} - {company}
+            <ComponentF/>
+            {/* {user} - {company} */}
         </div>
     )
 }
